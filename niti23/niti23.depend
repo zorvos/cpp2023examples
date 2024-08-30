@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1724964146 source:c:\users\gamer\documents\codeblocks\slozeniji\multithr\niti23\main.cpp
+	<iostream>
+	<vector>
+	<ranges>
+	<format>
+	<chrono>
+	<thread>
+	<atomic>
+	<mutex>
+	<algorithm>
+	<numeric>
+	<cmath>
+

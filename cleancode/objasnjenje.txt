@@ -1,0 +1,17 @@
+Objašnjenje Koda
+
+    DataProcessor Klasa:
+        DataProcessor: Ova klasa enkapsulira sve funkcionalnosti obrade podataka. Sadrži metode za obradu podataka u paraleli i čuvanje rezultata.
+        processData: Metod koji pokreće više niti za obradu podataka.
+        processRange: Metod koji obrađuje deo podataka i koristi std::mutex za bezbedan pristup deljenom rezultatu.
+        getTotalSum: Vraća ukupni zbir kvadratnih korena.
+
+    generateData Funkcija:
+        Kreira vektor sa sekvencijalnim vrednostima koje će biti obrađene.
+
+    main Funkcija:
+        Kreira instancu DataProcessor, pokreće obradu podataka, meri vreme obrade i prikazuje rezultate.
+
+    Trebalo bi da vidite izlaz koji prikazuje ukupan zbir kvadratnih korena i vreme trajanja obrade.
+
+Ovaj primer koristi clean code principe, kao što su enkapsulacija, razdvajanje odgovornosti, i jasno definisane funkcije i klase, dok koristi napredne C++23 funkcionalnosti za efikasnu obradu podataka.

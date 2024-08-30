@@ -1,0 +1,26 @@
+Objašnjenje Koda
+
+    std::ranges:
+        Iako u ovom primeru ne koristimo direktno std::ranges, možete ga koristiti za naprednije manipulacije podacima u stvarnim aplikacijama.
+
+    std::format:
+        Koristi se za formatiranje izlaza. Na primer, {:.2f} prikazuje broj sa dve decimale.
+
+    std::chrono:
+        std::chrono::high_resolution_clock: Merenje vremena sa visokom preciznošću.
+        std::chrono::duration: Pruža trajanje između početnog i krajnjeg trenutka.
+
+    Multi-threading:
+        std::thread: Kreira i upravlja nitima.
+        std::atomic: Obezbeđuje thread-safe akumulaciju rezultata.
+        std::mutex: Osigurava međusobnu isključenost prilikom ažuriranja deljenih resursa.
+
+    Obrada Podataka:
+        std::iota: Popunjava std::vector sa sekvencijalnim vrednostima.
+        std::vector: Koristi se za skladištenje i obradu velikih skupova podataka.
+        std::sqrt: Funkcija za računanje kvadratnog korena.
+
+
+    Trebalo bi da vidite izlaz koji prikazuje ukupan zbir kvadratnih korena i vreme trajanja obrade.
+
+Ovaj primer pokazuje kako da koristite napredne funkcionalnosti C++23 za efikasnu obradu velikih skupova podataka u paraleli, koristeći moderne koncepte i tehnike.

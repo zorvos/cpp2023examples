@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1724964616 source:c:\users\gamer\documents\codeblocks\slozeniji\cleancode\main.cpp
+	<iostream>
+	<vector>
+	<ranges>
+	<format>
+	<chrono>
+	<thread>
+	<atomic>
+	<mutex>
+	<numeric>
+	<cmath>
+	"DataProcessor.h"
+
+1724964679 c:\users\gamer\documents\codeblocks\slozeniji\cleancode\dataprocessor.h
+	<vector>
+	<thread>
+	<atomic>
+	<mutex>
+
